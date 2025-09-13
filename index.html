@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rail Induction Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="header">
+            <div class="header-left">
+                <div class="header-icon">🚂</div>
+                <div class="header-text">
+                    <h1>Rail Induction Planner</h1>
+                    <p>AI-Powered Optimization Engine</p>
+                </div>
+            </div>
+            <div class="header-buttons">
+                <button class="btn btn-breakdown">Breakdown</button>
+                <button class="btn btn-reset">Reset</button>
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <div class="stat-card">
+                <div class="stat-value">4</div>
+                <div class="stat-label">Trains in Service</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">167,820</div>
+                <div class="stat-label">Total Kilometers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">6</div>
+                <div class="stat-label">Active Ad Contracts</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">87%</div>
+                <div class="stat-label">Optimization Score</div>
+            </div>
+        </div>
+
+        <div class="columns-container">
+            <div class="column">
+                <div class="column-header green">In Service</div>
+                <div class="column-content" id="in-service">
+                    <!-- Content will be inserted by JavaScript -->
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="column-header orange">In Maintenance</div>
+                <div class="column-content" id="maintenance">
+                    <!-- Content will be inserted by JavaScript -->
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="column-header blue">In Standby</div>
+                <div class="column-content" id="standby">
+                    <!-- Content will be inserted by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
