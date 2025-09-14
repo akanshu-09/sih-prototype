@@ -59,7 +59,8 @@ function createTrainCard(train) {
                 </div>
                 <div class="info-item">
                     <span>💰</span>
-                    <span>$${train.brandValue.toLocaleString()}</span>
+                    <span>₹${train.brandValue.toLocaleString()}</span>
+
                 </div>
             </div>
             <div class="train-badges">

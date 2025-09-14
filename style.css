@@ -20,20 +20,22 @@ body::before {
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(255, 255, 255, 0.3); /* decreased from 0.85 to 0.5 */
+    background: rgba(255, 255, 255, 0.1); /* decreased from 0.85 to 0.5 */
     z-index: -1;
 }
 
 
 .dashboard {
-    max-width: 1600px;
-    margin: 20px auto;
-    background: rgba(245, 245, 245, 0.95); /* softer light grey with slight transparency */
-    border-radius: 20px;
-    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.25);
-    overflow: hidden;
-    padding: 40px 20px;
+    max-width: 1400px;      /* constrain the width */
+    margin: 20px auto;      /* center horizontally */
+    background: transparent; /* remove white overlay */
+    padding: 40px 20px;      /* space around content */
+    border-radius: 20px;     
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
+
 
 .header {
     background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); /* bluish gradient */
